@@ -1,0 +1,45 @@
+{
+	"id": {
+		"eventId": "74509dca-fd69-4055-bea6-9d68624ca835",
+		"parentId": "d6e75c66-c5b1-415b-902f-a1de8f6c819c",
+		"correlationId": "832fd361-29fe-493b-8da3-0de6af0e3e75",
+		"parentCorrelationIds": null
+	},
+	"created": "2019-04-12T05:44:47.5859336+00:00",
+	"eventType": "status_deviceBatteryStatus",
+	"payload": {
+		"arrivalTime": "2019-04-12T05:44:47.5620848+00:00",
+		"measurePointId": "measure",
+		"tenantId": "3245c374-f831-491f-94f7-5272a5d647a8",
+		"deviceChain": {
+			"PostmanBusVhfV1_1546248074": {
+				"deviceType": "busVhfV1",
+				"deviceId": "PostmanBusVhfV1_1546248074",
+				"parentId": null,
+				"deviceInfo": null,
+				"hwid": { "mmModel": "7", "mmMake": "2", "serialNumber": "485047", "id": "271766B7", "mmVariant": "1" }
+			}
+		},
+		"sample": {
+			"value": 0.0,
+			"sampleTime": "2019-04-12T05:44:17.817+00:00",
+			"signalId": "PostmanBusVhfV1_1546248074.batteryStatus",
+			"signalName": "batteryStatus",
+			"deviceId": "PostmanBusVhfV1_1546248074",
+			"signalType": "deviceBatteryStatus",
+			"quantity": {
+				"unit": "enum",
+				"isUnit": false,
+				"unitSI": null,
+				"unitFactor": 1.0,
+				"unitDivider": 1.0,
+				"unitOffset": 0.0
+			},
+			"valid": null,
+			"validity": null,
+			"origin": "measured",
+			"sampleInfo": { "enumValue": "LessThan25", "enumType": "BatteryLevelEnum" }
+		},
+		"info": null
+	}
+}
