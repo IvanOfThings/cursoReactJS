@@ -1,0 +1,70 @@
+{
+    "id": {
+        "eventId": "05ba22ef-e875-406d-8188-4011c052b3e8",
+        "parentId": "0217ac3b-4432-4cd4-913b-ac61df8eed5c",
+        "correlationId": "2335448d-6935-4e29-8bae-33cdcfda51b0",
+        "parentCorrelationIds": null
+    },
+    "created": "2019-04-23T16:56:05.3908522+00:00",
+    "eventType": "measure_waterVolume",
+    "payload": {
+        "arrivalTime": "2019-04-23T16:56:05.3612331+00:00",
+        "measurePointId": "measure",
+        "tenantId": "3245c374-f831-491f-94f7-5272a5d647a8",
+        "deviceChain": {
+            "40f257e6-3dac-47f2-8f22-f9b9d51c3f00": {
+                "deviceType": "eMeterSPDE",
+                "deviceId": "40f257e6-3dac-47f2-8f22-f9b9d51c3f00",
+                "parentId": "8c2b5d0b-878a-4785-8ba9-8a8d15a6d5d0",
+                "deviceInfo": null,
+                "hwid": {
+                    "deviceType": "A",
+                    "controlDigit": "H",
+                    "meterGauge": "A",
+                    "serialNumber": "702848",
+                    "year": "16",
+                    "id": "P16AA702848H",
+                    "type": "eMeterSPDE",
+                    "manufacturer": "P"
+                }
+            },
+            "PostmanBusVhfV1_1546248074": {
+                "deviceType": "busVhfV1",
+                "deviceId": "PostmanBusVhfV1_1546248074",
+                "parentId": null,
+                "deviceInfo": null,
+                "hwid": {
+                    "mmModel": "7",
+                    "mmMake": "2",
+                    "serialNumber": "485047",
+                    "id": "271766B7",
+                    "mmVariant": "1"
+                }
+            }
+        },
+        "sample": {
+            "value": {
+                "integer": 193121,
+                "thousandth": 0
+            },
+            "sampleTime": "2019-04-23T12:49:14.074+00:00",
+            "signalId": "40f257e6-3dac-47f2-8f22-f9b9d51c3f00.volume",
+            "signalName": "volume",
+            "deviceId": "40f257e6-3dac-47f2-8f22-f9b9d51c3f00",
+            "signalType": "waterVolume",
+            "quantity": {
+                "unit": "l",
+                "isUnit": true,
+                "unitSI": "l",
+                "unitFactor": 1.0,
+                "unitDivider": 1.0,
+                "unitOffset": 0.0
+            },
+            "valid": null,
+            "validity": null,
+            "origin": "measured",
+            "sampleInfo": null
+        },
+        "info": null
+    }
+}
